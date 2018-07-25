@@ -38,6 +38,7 @@ img {
     opacity: 0.5;
 }
 
+
 img:hover {
       opacity: 1;
 }
@@ -53,7 +54,9 @@ img:hover {
     font-weight: 500;
     padding: 20px;
     border-radius: 4px;
-    margin: 40 40 40 40;
+    display: inline-block;
+    margin: 40px;
+
 }
 .btn-green:hover {
     background-color: rgb(81, 163, 126);
@@ -78,10 +81,45 @@ img:hover {
   width: 100%;
 }
 
-.list-inline > li {
+.list-inline li {
   display: inline-block;;
   padding: 0px 20px;
 }
+
+.list-inline i {
+  padding: 20px;
+}
+
 .list-inline {
   padding-left: 0px;
+}
+
+#sidebar {
+  position: fixed;
+  width: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(green, grey);
+  padding-right: 20px;
+}
+#sidebar li {
+  list-style: none;
+}
+
+#sidebar i {
+  padding: 20px;
+}
+
+#sidebar a {
+  color: white;
+}
+
+#sidebar a {
+  color: rgb(255, 255, 255);
+
+}
+
+#page-content {
+  margin-left: 300px;
 }
